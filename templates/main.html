@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Team Profile Generator
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tailwindcss/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  </head>
+
+  <body>
+    <!--Nav bar section-->
+    <nav id="header" class="fixed top-0 z-40 w-full bg-gradient-to-r from-green-400 to-blue-500 text-center p-12">
+     <p class="medium text-6xl text-white">My Team</p> 
+    </nav>
+    
+    <!-- Main section -->
+
+    <section  class="py-8 bg-gray-100 ">
+      <div class="container px-2 pt-4 pb-12 m-5 mx-auto text-gray-800">
+        <div class="w-full mb-4">
+          <div class="grid grid-cols-2 gap-4">
+            {{ team }}
+          </div>
+        </div>
+      </div>
+    </section>
+   
+      
+
+
+    
+  </body>
+
+
+</html>
